@@ -1,0 +1,36 @@
+* {
+  font-family: monospace; 
+}
+
+body{
+  padding: 60px;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+input{
+  font-size: 1.3rem;
+  width: 100%;
+  color: grey;
+}
+.card-grid{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.card{
+  align-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.card p {
+  padding:5px;
+  text-align:center;
+}
+.card img {
+  max-height: 170px;
+}
